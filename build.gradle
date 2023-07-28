@@ -63,7 +63,8 @@ jar {
 
 spigot {
     description "An open-source autocrafting plugin for Bukkit."
-    load STARTUP
+    load POSTWORLD
+    softDepend "ItemsAdder"
     authors "Aeltumn"
     apiVersion '1.18'
     commands {
